@@ -52,8 +52,6 @@ header {
     font-size: 20px;
 }
 
-
-
 .container {
     display: flex;
     justify-content: center;
@@ -62,6 +60,25 @@ header {
     /* background-color: #ecf0f1; */
     background-image: url('../imagens/fundo.jpg');
 }
+
+.content-ajuda{
+    background-color: #fff;
+    border-radius: 15px;
+    width: 1280;
+    height: 80%;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;  
+}
+
+.container-ajuda{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('../imagens/fundo.jpg');
+}
+
 .content {
     background-color: #fff;
     border-radius: 15px;
